@@ -6,7 +6,7 @@ function About(props) {
   return (
     <div id="about">
       <h2>About Me</h2>
-      {/* if({props.bio} && {props.bio.length > 1}){
+      {/* if({props.bio}){
         <p>{props.bio}</p>
       }else{
         null
